@@ -196,16 +196,6 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
-      },
-      "PetQuote.Models/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v2.0",
-        "compile": {
-          "bin/placeholder/PetQuote.Models.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/PetQuote.Models.dll": {}
-        }
       }
     }
   },
@@ -666,17 +656,12 @@
         "netstandard.library.2.0.0.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
-    },
-    "PetQuote.Models/1.0.0": {
-      "type": "project",
-      "path": "../Trupanion.Test.Models/PetQuote.Models.csproj",
-      "msbuildProject": "../Trupanion.Test.Models/PetQuote.Models.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
-      "Microsoft.NETCore.App >= 2.0.0",
-      "PetQuote.Models >= 1.0.0"
+      "C:\\Code\\Trupanion\\PetQuote.Solution\\AspNetCore2Angular4\\Trupanion.Test.Models\\PetQuote.Models.csproj",
+      "Microsoft.NETCore.App >= 2.0.0"
     ]
   },
   "packageFolders": {
@@ -689,11 +674,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Code\\Trupanion\\Trupanion.Test.Solution\\Trupanion.Test.AppServices\\PetQuote.AppServices.csproj",
+      "projectUniqueName": "C:\\Code\\Trupanion\\PetQuote.Solution\\AspNetCore2Angular4\\PetQuote.AppServices\\PetQuote.AppServices.csproj",
       "projectName": "PetQuote.AppServices",
-      "projectPath": "C:\\Code\\Trupanion\\Trupanion.Test.Solution\\Trupanion.Test.AppServices\\PetQuote.AppServices.csproj",
+      "projectPath": "C:\\Code\\Trupanion\\PetQuote.Solution\\AspNetCore2Angular4\\PetQuote.AppServices\\PetQuote.AppServices.csproj",
       "packagesPath": "C:\\Users\\nk8632\\.nuget\\packages\\",
-      "outputPath": "C:\\Code\\Trupanion\\Trupanion.Test.Solution\\Trupanion.Test.AppServices\\obj\\",
+      "outputPath": "C:\\Code\\Trupanion\\PetQuote.Solution\\AspNetCore2Angular4\\PetQuote.AppServices\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -712,8 +697,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\Code\\Trupanion\\Trupanion.Test.Solution\\Trupanion.Test.Models\\PetQuote.Models.csproj": {
-              "projectPath": "C:\\Code\\Trupanion\\Trupanion.Test.Solution\\Trupanion.Test.Models\\PetQuote.Models.csproj"
+            "C:\\Code\\Trupanion\\PetQuote.Solution\\AspNetCore2Angular4\\Trupanion.Test.Models\\PetQuote.Models.csproj": {
+              "projectPath": "C:\\Code\\Trupanion\\PetQuote.Solution\\AspNetCore2Angular4\\Trupanion.Test.Models\\PetQuote.Models.csproj"
             }
           }
         }
@@ -741,5 +726,16 @@
         "warn": true
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'C:\\Code\\Trupanion\\PetQuote.Solution\\AspNetCore2Angular4\\Trupanion.Test.Models\\PetQuote.Models.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\Code\\Trupanion\\PetQuote.Solution\\AspNetCore2Angular4\\Trupanion.Test.Models\\PetQuote.Models.csproj",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.0"
+      ]
+    }
+  ]
 }

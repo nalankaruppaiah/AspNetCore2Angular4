@@ -673,11 +673,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Code\\Trupanion\\Trupanion.Test.Solution\\Trupanion.Test.Models\\PetQuote.Models.csproj",
+      "projectUniqueName": "C:\\Code\\Trupanion\\PetQuote.Solution\\AspNetCore2Angular4\\PetQuote.Models\\PetQuote.Models.csproj",
       "projectName": "PetQuote.Models",
-      "projectPath": "C:\\Code\\Trupanion\\Trupanion.Test.Solution\\Trupanion.Test.Models\\PetQuote.Models.csproj",
+      "projectPath": "C:\\Code\\Trupanion\\PetQuote.Solution\\AspNetCore2Angular4\\PetQuote.Models\\PetQuote.Models.csproj",
       "packagesPath": "C:\\Users\\nk8632\\.nuget\\packages\\",
-      "outputPath": "C:\\Code\\Trupanion\\Trupanion.Test.Solution\\Trupanion.Test.Models\\obj\\",
+      "outputPath": "C:\\Code\\Trupanion\\PetQuote.Solution\\AspNetCore2Angular4\\PetQuote.Models\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PetQuote.Web", "Trupanion.Test.Solution\PetQuote.Web.csproj", "{DD61202D-0D9F-422C-A703-5E99249853CA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PetQuote.Web", "PetQuote.Web\PetQuote.Web.csproj", "{DD61202D-0D9F-422C-A703-5E99249853CA}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PetQuote.Models", "Trupanion.Test.Models\PetQuote.Models.csproj", "{47EE7FF6-A66B-472D-AD6B-A5139791B291}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PetQuote.Models", "PetQuote.Models\PetQuote.Models.csproj", "{47EE7FF6-A66B-472D-AD6B-A5139791B291}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PetQuote.AppServices", "Trupanion.Test.AppServices\PetQuote.AppServices.csproj", "{893652E1-6A48-4C20-9498-03D58A3EADDE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PetQuote.AppServices", "PetQuote.AppServices\PetQuote.AppServices.csproj", "{893652E1-6A48-4C20-9498-03D58A3EADDE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
