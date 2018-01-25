@@ -1,0 +1,11 @@
+C:\Code\Trupanion\Trupanion.Test.Solution\Trupanion.Test.AppServices\bin\Debug\netcoreapp2.0\Trupanion.Test.AppServices.deps.json
+C:\Code\Trupanion\Trupanion.Test.Solution\Trupanion.Test.AppServices\bin\Debug\netcoreapp2.0\Trupanion.Test.AppServices.dll
+C:\Code\Trupanion\Trupanion.Test.Solution\Trupanion.Test.AppServices\bin\Debug\netcoreapp2.0\Trupanion.Test.AppServices.pdb
+C:\Code\Trupanion\Trupanion.Test.Solution\Trupanion.Test.AppServices\bin\Debug\netcoreapp2.0\Trupanion.Test.Models.dll
+C:\Code\Trupanion\Trupanion.Test.Solution\Trupanion.Test.AppServices\bin\Debug\netcoreapp2.0\Trupanion.Test.Models.pdb
+C:\Code\Trupanion\Trupanion.Test.Solution\Trupanion.Test.AppServices\obj\Debug\netcoreapp2.0\Trupanion.Test.AppServices.csprojResolveAssemblyReference.cache
+C:\Code\Trupanion\Trupanion.Test.Solution\Trupanion.Test.AppServices\obj\Debug\netcoreapp2.0\Trupanion.Test.AppServices.csproj.CoreCompileInputs.cache
+C:\Code\Trupanion\Trupanion.Test.Solution\Trupanion.Test.AppServices\obj\Debug\netcoreapp2.0\Trupanion.Test.AppServices.AssemblyInfoInputs.cache
+C:\Code\Trupanion\Trupanion.Test.Solution\Trupanion.Test.AppServices\obj\Debug\netcoreapp2.0\Trupanion.Test.AppServices.AssemblyInfo.cs
+C:\Code\Trupanion\Trupanion.Test.Solution\Trupanion.Test.AppServices\obj\Debug\netcoreapp2.0\Trupanion.Test.AppServices.dll
+C:\Code\Trupanion\Trupanion.Test.Solution\Trupanion.Test.AppServices\obj\Debug\netcoreapp2.0\Trupanion.Test.AppServices.pdb

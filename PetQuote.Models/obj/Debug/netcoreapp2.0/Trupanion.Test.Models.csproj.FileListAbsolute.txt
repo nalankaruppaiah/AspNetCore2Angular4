@@ -1,0 +1,9 @@
+C:\Code\Trupanion\Trupanion.Test.Solution\Trupanion.Test.Models\bin\Debug\netcoreapp2.0\Trupanion.Test.Models.deps.json
+C:\Code\Trupanion\Trupanion.Test.Solution\Trupanion.Test.Models\bin\Debug\netcoreapp2.0\Trupanion.Test.Models.dll
+C:\Code\Trupanion\Trupanion.Test.Solution\Trupanion.Test.Models\bin\Debug\netcoreapp2.0\Trupanion.Test.Models.pdb
+C:\Code\Trupanion\Trupanion.Test.Solution\Trupanion.Test.Models\obj\Debug\netcoreapp2.0\Trupanion.Test.Models.csprojResolveAssemblyReference.cache
+C:\Code\Trupanion\Trupanion.Test.Solution\Trupanion.Test.Models\obj\Debug\netcoreapp2.0\Trupanion.Test.Models.csproj.CoreCompileInputs.cache
+C:\Code\Trupanion\Trupanion.Test.Solution\Trupanion.Test.Models\obj\Debug\netcoreapp2.0\Trupanion.Test.Models.AssemblyInfoInputs.cache
+C:\Code\Trupanion\Trupanion.Test.Solution\Trupanion.Test.Models\obj\Debug\netcoreapp2.0\Trupanion.Test.Models.AssemblyInfo.cs
+C:\Code\Trupanion\Trupanion.Test.Solution\Trupanion.Test.Models\obj\Debug\netcoreapp2.0\Trupanion.Test.Models.dll
+C:\Code\Trupanion\Trupanion.Test.Solution\Trupanion.Test.Models\obj\Debug\netcoreapp2.0\Trupanion.Test.Models.pdb

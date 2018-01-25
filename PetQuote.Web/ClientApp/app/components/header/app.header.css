@@ -1,0 +1,9 @@
+﻿.app-header {
+    height: 100px;
+    background-color: #4B493D;
+    text-align: center;
+}
+
+    .app-header .underwriter {
+        color: #fff;
+    }

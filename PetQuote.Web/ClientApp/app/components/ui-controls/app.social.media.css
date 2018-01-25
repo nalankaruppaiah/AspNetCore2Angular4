@@ -1,0 +1,52 @@
+﻿.social-container {
+    height: 300px;
+    background-color: gainsboro;
+}
+
+
+.social-media-container ul li {
+    list-style: none;
+    text-align: center;
+    float: left;
+}
+
+.social-icons {
+    text-align: center;
+    font-family: "Open Sans";
+    font-weight: 300;
+    font-size: 1.5em;
+    color: #448aaf;
+}
+
+    .social-icons h1 {
+        margin: 40px 0;
+    }
+
+    .social-icons ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+        .social-icons ul li {
+            display: inline-block;
+            zoom: 1;
+            *display: inline;
+            vertical-align: middle;
+            padding-top: 15px
+        }
+
+            .social-icons ul li a {
+                display: block;
+                font-size: 1.4em;
+                margin: 0 5px;
+                text-decoration: none;
+            }
+
+
+
+@media (min-width: 320px) and (max-width: 991px) {
+    .social-container {
+        height: 100%;
+    }
+}

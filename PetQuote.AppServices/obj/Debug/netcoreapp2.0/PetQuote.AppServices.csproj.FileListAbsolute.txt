@@ -1,0 +1,11 @@
+C:\Code\Trupanion\Trupanion.Test.Solution\Trupanion.Test.AppServices\bin\Debug\netcoreapp2.0\PetQuote.AppServices.deps.json
+C:\Code\Trupanion\Trupanion.Test.Solution\Trupanion.Test.AppServices\bin\Debug\netcoreapp2.0\PetQuote.AppServices.dll
+C:\Code\Trupanion\Trupanion.Test.Solution\Trupanion.Test.AppServices\bin\Debug\netcoreapp2.0\PetQuote.AppServices.pdb
+C:\Code\Trupanion\Trupanion.Test.Solution\Trupanion.Test.AppServices\bin\Debug\netcoreapp2.0\PetQuote.Models.dll
+C:\Code\Trupanion\Trupanion.Test.Solution\Trupanion.Test.AppServices\bin\Debug\netcoreapp2.0\PetQuote.Models.pdb
+C:\Code\Trupanion\Trupanion.Test.Solution\Trupanion.Test.AppServices\obj\Debug\netcoreapp2.0\PetQuote.AppServices.csprojResolveAssemblyReference.cache
+C:\Code\Trupanion\Trupanion.Test.Solution\Trupanion.Test.AppServices\obj\Debug\netcoreapp2.0\PetQuote.AppServices.csproj.CoreCompileInputs.cache
+C:\Code\Trupanion\Trupanion.Test.Solution\Trupanion.Test.AppServices\obj\Debug\netcoreapp2.0\PetQuote.AppServices.AssemblyInfoInputs.cache
+C:\Code\Trupanion\Trupanion.Test.Solution\Trupanion.Test.AppServices\obj\Debug\netcoreapp2.0\PetQuote.AppServices.AssemblyInfo.cs
+C:\Code\Trupanion\Trupanion.Test.Solution\Trupanion.Test.AppServices\obj\Debug\netcoreapp2.0\PetQuote.AppServices.dll
+C:\Code\Trupanion\Trupanion.Test.Solution\Trupanion.Test.AppServices\obj\Debug\netcoreapp2.0\PetQuote.AppServices.pdb

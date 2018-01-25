@@ -1,0 +1,111 @@
+﻿<div>
+    <app-header></app-header>
+    <div class="container-fluid">
+        <div class="quote-form-container bg-image">
+            <div class="quote-form-area">
+                <form [formGroup]="quoteForm" (ngSubmit)="submitQuoteForm()" class="quote-form">
+                    <h1 [ngStyle]="{'color':titleColor}">The perfect plan for every pet.</h1>
+                    <h2>We'd love to tell you why:855.210.8749</h2>
+
+                    <div class="form-group">
+                        <span class="control-label"></span>
+                        <input class="form-control" type="text" placeholder="Pet name" formControlName="petName">
+                        <div *ngIf="quoteForm.controls['petName'].hasError('required') && quoteForm.controls['petName'].touched" class="alert alert-danger">Oops you forgot the most important thing, your pet's name!.</div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="field">
+                            Do you have a:
+
+                        </label>
+                        <label class="radio-container">
+                            Dog
+                            <input type="radio" formControlName="petType" [(ngModel)]="petId" [value]="2" [checked]="petId == 2" (change)="getBreed()">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="radio-container">
+                            Cat
+                            <input type="radio" formControlName="petType" [(ngModel)]="petId" [value]="1" [checked]="petId == 1" (change)="getBreed()">
+                            <span class="checkmark"></span>
+                        </label>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="field">
+                            My pet is:
+
+                        </label>
+
+                        <label class="radio-container">
+                            Male
+                            <input type="radio" formControlName="isMale" [(ngModel)]="isMale" [value]="true" [checked]="isMale == true">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="radio-container">
+                            Female
+                            <input type="radio" formControlName="isMale" [(ngModel)]="isMale" [value]="false" [checked]="isMale == false">
+                            <span class="checkmark"></span>
+                        </label>
+
+                    </div>
+
+                    <div class="form-group">
+                        <span class="control-label"></span>
+                        <select class="form-control required selectPetAge" formControlName="petAge" (change)="onPetAgeChange()" aria-hidden="true">
+                            <option value="">---- Select Pet's Age ----</option>
+                            <option *ngFor="let value of petAges" [value]="value.age">{{value.age}}</option>
+                        </select>
+                        <div *ngIf="quoteForm.controls['petAge'].hasError('required') && quoteForm.controls['petAge'].touched" class="alert alert-danger">Please select Pet's Age.</div>
+                    </div>
+
+                    <div class="form-group">
+                        <span class="control-label"></span>
+                        <select class="form-control required" formControlName="breed" aria-hidden="true">
+                            <option value="">---- Select Pet's Breed ----</option>
+                            <option *ngFor="let value of breeds">{{value.breedName}}</option>
+                        </select>
+                        <div *ngIf="quoteForm.controls['breed'].hasError('required') && quoteForm.controls['breed'].touched" class="alert alert-danger">Please select breed of the pet.</div>
+                    </div>
+
+                    <div class="form-group">
+                        <span class="control-label"></span>
+                        <input type="text" placeholder="Zip Code" class="form-control required" formControlName="zipCode">
+                        <div *ngIf="!quoteForm.controls['zipCode'].valid && quoteForm.controls['zipCode'].touched" class="alert alert-danger">Please enter valid Zipcode.</div>
+                    </div>
+
+                    <div class="form-group">
+                        <span class="control-label"></span>
+                        <input type="email" placeholder="Email" class="form-control email" formControlName="email">
+                        <div *ngIf="!quoteForm.controls['email'].valid && quoteForm.controls['email'].touched" class="alert alert-danger">Please enter valid Email Id.</div>
+                    </div>
+
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-orange" [disabled]="!quoteForm.valid">Get pet's quote ></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="quote-modal" [ngStyle]="{'display':display}">
+            <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" (click)="onCloseHandled()">&times;</button>
+                    </div>
+                    <!-- model body section -->
+                    <div class="modal-body">
+                        <h3 class="modal-title">Insurance starts for puppies & kittens from 8 weeks of age</h3>
+                        <p>If your puppy or kitten is younger than this, please call 855.591.3100 or email us & we will get right back to you to arrange coverage.</p>
+                    </div>
+                    <!--<div class="modal-footer">
+                        <button type="button" class="btn btn-default" (click)="onCloseHandled()">Close</button>
+                    </div>-->
+                </div>
+            </div>
+            <div class="modal-background" [ngStyle]="{'display':display}"></div>
+        </div>
+    </div>
+    <!--<app-confirm-dialog></app-confirm-dialog>-->
+    <app-social-media></app-social-media>
+</div>
+

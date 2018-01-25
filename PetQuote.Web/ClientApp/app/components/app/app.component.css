@@ -1,0 +1,28 @@
+/*@media (max-width: 767px) {
+    .body-content {
+        padding-top: 50px;
+    }
+}*/
+
+.outer-window {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.main-page {
+    padding: 0;
+    height : 100%;
+    width : 100%;
+}
+
+.row {
+    margin-left :0 !important;
+    margin-right: 0 !important;
+}
+
+div {
+    height: 100%;
+    width: 100%;
+}
+

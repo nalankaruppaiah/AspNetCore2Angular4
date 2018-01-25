@@ -1,0 +1,119 @@
+
+.quote-form-container {
+    height: 1000px;
+}
+
+.quote-form-area {
+    margin: 0 auto;
+    top: 0;
+    width: 400px;
+    padding-top: 80px;
+}
+
+    .quote-form h1, h2 {
+        font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+        font-weight: bold;
+        color: white;
+    }
+
+    .quote-form h1 {
+        font-size: 30px;
+    }
+
+    .quote-form h2 {
+        font-size: 20px;
+        font-weight: normal;
+    }
+
+
+    .quote-form .form-submit-border .btn:hover {
+        background-color: #b9441e;
+    }
+
+
+        .quote-form ul.form-elements li.form-control-field {
+            width: 100%;
+            margin: 0;
+            padding: 0 0 12px 0 !important;
+            position: relative;
+        }
+
+            .quote-form ul.form-elements li.form-control-field label.field {
+                float: left;
+            }
+
+
+
+
+.quote-modal {
+    /* modal container fixed across whole screen */
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    /* z-index must be higher than .modal-background */
+    z-index: 1000;
+    /* enables scrolling for tall modals */
+    overflow: auto;
+}
+
+    .quote-modal .modal-header {
+        border-style: none;
+    } 
+    .quote-modal .modal-dialog {
+        z-index: 1000;
+        width: 400px;
+        top: 20%;
+    }
+
+    .quote-modal .modal-body {
+        padding: 0;
+        background: #fff;
+        /* margin exposes part of the modal background */
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px
+    }
+
+        .quote-modal .modal-body h3 {
+            color: #345e9e;
+            font-size: 18px;
+            font-family: "Arial";
+            margin: 0 0 10px 0;
+            font-weight: bold;
+        }
+
+    .quote-modal .modal-background {
+        /* modal background fixed across whole screen */
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        /* semi-transparent black  */
+        background-color: #000;
+        opacity: 0.75;
+        /* z-index must be below .modal and above everything else  */
+        z-index: 900;
+    }
+
+    
+    
+    body.modal-open {
+        /* body overflow is hidden to hide main scrollbar when modal window is open */
+        overflow: hidden;
+    }
+
+@media (max-width: 520px) {
+    .quote-modal .modal-dialog {
+        width: 100%;
+        margin: 10px auto;
+        padding: 10px;
+    }
+}
+
+
+
+
+               

@@ -1,0 +1,23 @@
+.quote-confirmation-container {
+    height: 700px;
+}
+
+.quote-confirmation {
+    position: absolute;
+    top: 20%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+    .quote-confirmation h1 {
+        font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+        font-weight: bold;
+        color: #fff;
+    }
+
+@media (max-width: 468px) {
+    .quote-confirmation {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
